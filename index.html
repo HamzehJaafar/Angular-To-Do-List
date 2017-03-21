@@ -1,0 +1,35 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+
+</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body ng-app="toDoApp" ng-controller="todoCtrl">
+<div id="main">
+<h1>AngularJS ToDo Application </h1>
+<form ng-submit="todoAddJSON()">
+	<div class="dropboxContainer">
+		<div class="dropBoxFile">
+			<div id="dropBox">Drop files here! Or Select a file!
+			<input id="browse" type="file" onchange="processFiles(this.files)">
+		</div>
+	</div>	
+	  <input type="submit" value="Upload"> <br> <br>
+</form>
+
+<form ng-submit="todoAdd()">
+  <input type="text" ng-model="todoInput" size="50" placeholder="Task Name" class="form-control">
+  <br/>
+  <br/>  
+  <input type="text" ng-model="todoDesc" size="50" placeholder="Task Description" class="form-control">
+ <br>   <input type="submit" value="Add New">
+</form>
+<div ng-include="'display.html'"></div>
+</div>
+<footer> &copy; Hamzeh Jaafar @ hamzeh.jaafar@ryerson.ca </footer>
+<script src="main.js"></script>
+</body>
+</html>

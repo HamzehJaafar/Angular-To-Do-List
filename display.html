@@ -1,0 +1,43 @@
+
+<section>
+<h2> To Do List </h2>
+<div ng-repeat="x in todoList">
+	<table>
+	<tr> <th>
+	<span ng-bind="x.todoText"></span> 
+	</th>
+	<th>
+    Completed: <input type="checkbox" ng-model="x.done" ng-click="done()"> 
+	</th>
+	<th>
+	Remove: <input type="checkbox" ng-model="x.rm" ng-click="remove()"> 
+	</th>
+	<tr>
+	<th colspan=3>
+	<span ng-bind="x.desc"></span>
+	</th>
+	</tr>
+	</table>
+	<br/>
+</div>
+<details>
+<summary>Completed Tasks (Click to show)</summary>
+<aside>
+<div ng-repeat="x in completed">
+ 	<table>
+	<tr> <th>
+	<span ng-bind="x.todoText"></span> 
+	</th>
+	
+	<tr>
+	<th>
+	<span ng-bind="x.desc"></span>
+	</th>
+	</tr>
+	</table>
+	<br/>
+</div></aside>
+</details>
+
+
+</section>

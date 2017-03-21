@@ -1,0 +1,62 @@
+body {
+text-align:Center;
+background-color: #d6643e;
+
+}
+#main {
+	padding-top:5px;
+	margin-left:10%;
+	margin-right;10%;
+	width:80%;
+	height:90% auto;
+	background-color: #89C614;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+
+}
+#upload{
+    display:none
+}
+#fileselect, input{
+
+	margin-left:35%;
+}
+dropbox {
+}
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+	background-color:#3eb0d6;
+}
+.form-control {
+	background-color: #B37059;
+	border-color: #B37059;
+	margin:auto;
+	width: 90%;
+}
+table {
+	margin:auto;
+	width: 90%;
+	
+	
+}
+#dropBox{
+
+margin-top; 10px;
+  margin-left:25%;
+	width: 50%;
+	height: 110px;
+	background-color: ‎#2157de;
+	padding: 40px 40px 50px 20px;
+	text-align: center;
+	border-color: #4682b4;
+	border-style: solid;
+	border-width: 2px;
+
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+label {
+	
+}

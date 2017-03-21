@@ -1,0 +1,18 @@
+{
+	"todo"
+		:[
+			{
+			"todoText":"CPS630 Project",
+			"desc": "Finish CPS630 Project",
+			"done":false,
+			"rm":false
+		
+			},
+			{
+			"todoText":"CPS406 Project",
+			"desc": "Complete CPS406 Iteration #2",
+			"done":false,
+			"rm":false
+			}
+		]
+}
