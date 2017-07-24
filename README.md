@@ -1,5 +1,4 @@
-To-do List
-__________
+#To-do List
 
 Helps users organize and manage tasks by simplifiying the creation, deletion and completion of tasks.
 
