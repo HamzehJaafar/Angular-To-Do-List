@@ -1,6 +1,6 @@
 To-do List
 __________
 
-To-do list application helps users organize and manage using an add, remove and complete task features. 
+Helps users organize and manage tasks by simplifiying the creation, deletion and completion of tasks.
 
 Technology used includes JSON, JavaScript, AngularJS, HTML5, and CSS3.
